@@ -1,9 +1,9 @@
 # Arcade prediction benchmark
-For benchmark policy evaluation on Atari. The policies are taken from pre-trained rainbow DQN agent from the Chiner RL model zoo [1].
+A prediction benchmark for pre-trained policies on Atari2600 games The policies are taken from pre-trained rainbow DQN agent from the Chainer RL model zoo [1].
 
-A small test policy for Pong with sample code is available in test.py. 
+A small test policy for Pong with sample code is available in test.py, and the full policies are [here](https://drive.google.com/file/d/1ouaERgS5rt6KsX77JpULe8OcYehtsYXt/view?usp=sharing).
 
-Link to full policies: [Google drive](https://drive.google.com/file/d/1ouaERgS5rt6KsX77JpULe8OcYehtsYXt/view?usp=sharing).
+For each game, there are four epsilon-greedy policies with different epsilons. The epsilon values are 0.0, 0.05, 0.1, and 0.2. Epsilon 0.1 is a reasonable default. 
 
 ## Run a policy
 Use `test.py` to replay a policy locally.
