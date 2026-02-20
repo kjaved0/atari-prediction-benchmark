@@ -3,7 +3,17 @@ For benchmark policy evaluation on Atari. The policies are taken from pre-traine
 
 A small test policy for Pong with sample code is available in test.py. 
 
-Link to full policies: [Google drive](https://drive.google.com/file/d/1V4DamdphYq9VNWBf9-1v1B773R9HSOUG/view?usp=sharing).
+Link to full policies: [Google drive](https://drive.google.com/file/d/1ouaERgS5rt6KsX77JpULe8OcYehtsYXt/view?usp=sharing).
+
+## Run a policy
+Use `test.py` to replay a policy locally.
+
+Example using `Pong_eps_0_1`:
+```bash
+python test.py policies/rainbow_Pong_eps_0.1.json
+```
+
+This runs the `Pong_eps_0_1` policy from the `policies/` folder and prints the episode returns.
 
 
 You can cite the benchmark as:
