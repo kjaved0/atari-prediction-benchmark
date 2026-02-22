@@ -1,2 +1,5 @@
-numpy
-ale-py
+ale-py==0.10.2
+numpy>=1.20
+imageio>=2.9
+imageio-ffmpeg>=0.4
+Pillow>=9.0
